@@ -33,7 +33,7 @@ btn.addEventListener("click", async (event) => {
                 // document.getElementById("loginForm").classList.add("active");
               // document.getElementById("formTitle").innerText = "Login";
               localStorage.setItem("email", email.value);
-              window.location.href = "/infi_website/HTML/otpVerify.html";
+              window.location.href = "../../infi_website/HTML/otpVerify.html";
               fetch(`/auth/send-otp`, {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },

@@ -1,7 +1,7 @@
 const row_info = `<tr>
             <td>
               <img
-                src="/infi_website/image/book1 Arthur P. Cracknell.jpg"
+                src="../../infi_website/image/book1 Arthur P. Cracknell.jpg"
                 alt="Introduction to Remote Sensing"
               />
             </td>

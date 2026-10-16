@@ -4,7 +4,7 @@ import { getData } from "./context.js";
 const blog_template = `<article class="blog-post">
                     <h2>Understanding Remote Sensing Techniques</h2>
                     <p>Published on August 15, 2024 by <strong>Aanchal Choudhary</strong></p>
-                    <img src="/infi_website/image/r3.jpeg" alt="Remote Sensing Techniques Image" class="blog-image">
+                    <img src="../../infi_website/image/r3.jpeg" alt="Remote Sensing Techniques Image" class="blog-image">
                     <p>Remote sensing involves the use of various technologies to observe and measure objects without being in direct contact with them. This article explores different remote sensing techniques and their applications...</p>
                     <a href="post1.html" class="read-more">Read More</a>
                     <!-- Comment Box and Rating System -->
@@ -76,13 +76,13 @@ write_blog_btn.addEventListener('click', async () => {
         const data = JSON.parse(user);
         console.log(data);
         if (data) {
-            window.location.href = "/infi_website/HTML/blogwrite.html";
+            window.location.href = "../../infi_website/HTML/blogwrite.html";
         } else {
-            window.location.href = "/infi_website/HTML/login.html";
+            window.location.href = "../../infi_website/HTML/login.html";
         }
     }
     catch (err) {
-        window.location.href = "/infi_website/HTML/login.html";
+        window.location.href = "../../infi_website/HTML/login.html";
     }
 })
 

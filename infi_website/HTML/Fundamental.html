@@ -7,7 +7,7 @@
     <!-- Font Awesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <!-- Custom CSS File Link -->
-    <link rel="stylesheet" href="/infi_website/CSS/style.css" />
+    <link rel="stylesheet" href="../../infi_website/CSS/style.css" />
     <style>
       body {
         /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
@@ -463,7 +463,7 @@
     <script>
 
       // Use same-origin relative URL to avoid HTTPS/port issues
-      fetch(`/infi_website/data/fundamental.json`).then(res => res.json()).then(data => {
+      fetch(`../../infi_website/data/fundamental.json`).then(res => res.json()).then(data => {
         Object.keys(data).forEach((k, index) => {
           // console.log(data[k])
           const card = `
@@ -619,7 +619,7 @@
       //   });
       // });
     </script>
-    <script type="module" src="/infi_website/Javascript/navBar.js"></script>
-    <script src="/infi_website/js/chatbot-widget.js" defer></script>
+    <script type="module" src="../../infi_website/Javascript/navBar.js"></script>
+    <script src="../../infi_website/js/chatbot-widget.js" defer></script>
 </body>
 </html>

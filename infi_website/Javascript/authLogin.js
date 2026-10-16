@@ -21,7 +21,7 @@ login_button.addEventListener("click", async () => {
               // localStorage.setItem("token", jwtToken);
               setData("token", jwtToken);
               alert("Logged in! Token saved.");
-            window.location.href = "/infi_website/HTML/home.html";
+            window.location.href = "../../infi_website/HTML/home.html";
         //       document.getElementById("signupForm").classList.remove("active");
         //   document.getElementById("loginForm").classList.add("active");
         //   document.getElementById("formTitle").innerText = "Login";

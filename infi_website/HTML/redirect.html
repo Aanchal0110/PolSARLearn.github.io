@@ -94,12 +94,12 @@
     <p class="countdown">Redirecting in <span id="timer">5</span> seconds.</p>
     <p>
       If you are not redirected,
-      <a id="link" href="/infi_website/HTML/blog.html">click here</a>.
+      <a id="link" href="../../infi_website/HTML/blog.html">click here</a>.
     </p>
 
     <script>
       const countdownElement = document.getElementById("timer");
-      const redirectUrl = "/infi_website/HTML/blog.html";
+      const redirectUrl = "../../infi_website/HTML/blog.html";
       let seconds = 5;
 
       const intervalId = setInterval(() => {
@@ -112,8 +112,8 @@
         }
       }, 1000);
     </script>
-    <script src="/infi_website/Javascript/script.js"></script>
-    <script type="module" src="/infi_website/Javascript/navBar.js"></script>
+    <script src="../../infi_website/Javascript/script.js"></script>
+    <script type="module" src="../../infi_website/Javascript/navBar.js"></script>
     <script>
 document.getElementById('menu').onclick = function() {
   document.querySelector('.navbar').classList.toggle('active');
@@ -122,6 +122,6 @@ document.querySelectorAll('.navbar a').forEach(link => {
   link.onclick = () => document.querySelector('.navbar').classList.remove('active');
 });
 </script>
-    <script src="/infi_website/js/chatbot-widget.js" defer></script>
+    <script src="../../infi_website/js/chatbot-widget.js" defer></script>
 </body>
 </html>

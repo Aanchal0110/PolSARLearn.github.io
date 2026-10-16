@@ -464,7 +464,7 @@ header {
     display: block;
     width: 45px;
     height: 45px;
-    background: url('/infi_website/image/logo.jpeg') no-repeat center center;
+    background: url('../../infi_website/image/logo.jpeg') no-repeat center center;
     background-size: contain;
     margin-right: 15px;
     flex-shrink: 0;

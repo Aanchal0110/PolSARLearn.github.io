@@ -59,7 +59,7 @@ blog.addEventListener("click", async (e) => {
         }
 
       alert("Post uploaded successfully!");
-      window.location.href = "/infi_website/HTML/redirect.html"
+      window.location.href = "../../infi_website/HTML/redirect.html"
       } catch (err) {
         // errorDiv.innerText = err.message;
         alert(err.message);

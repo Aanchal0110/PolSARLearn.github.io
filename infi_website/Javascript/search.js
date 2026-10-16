@@ -18,67 +18,67 @@ class WebsiteSearch {
         this.searchData = [
             {
                 title: "Home",
-                url: "/infi_website/HTML/home.html",
+                url: "../../infi_website/HTML/home.html",
                 keywords: ["remote sensing", "microwave", "optical", "satellite", "earth observation", "geospatial", "radar", "SAR", "polarimetry"],
                 description: "Learn about remote sensing fundamentals, microwave and optical remote sensing techniques"
             },
             {
                 title: "Fundamentals",
-                url: "/infi_website/HTML/Fundamental.html",
+                url: "../../infi_website/HTML/Fundamental.html",
                 keywords: ["fundamentals", "basics", "principles", "theory", "electromagnetic spectrum", "sensors", "platforms"],
                 description: "Basic principles and fundamentals of remote sensing technology"
             },
             {
                 title: "Books",
-                url: "/infi_website/HTML/Books.html",
+                url: "../../infi_website/HTML/Books.html",
                 keywords: ["books", "literature", "textbooks", "references", "reading", "study materials", "publications"],
                 description: "Comprehensive collection of books and literature on remote sensing"
             },
             {
                 title: "Videos",
-                url: "/infi_website/HTML/Videos.html",
+                url: "../../infi_website/HTML/Videos.html",
                 keywords: ["videos", "tutorials", "lectures", "youtube", "learning", "visual", "multimedia"],
                 description: "Educational videos and tutorials on remote sensing topics"
             },
             {
                 title: "Domain Experts",
-                url: "/infi_website/HTML/domain-experts.html",
+                url: "../../infi_website/HTML/domain-experts.html",
                 keywords: ["domain experts", "academicians", "professors", "faculty", "academia", "industry", "professionals", "practitioners", "researchers", "scientists", "experts"],
                 description: "Academicians, industry professionals and researchers in remote sensing"
             },
             {
                 title: "Data Download",
-                url: "/infi_website/HTML/datadownload.html",
+                url: "../../infi_website/HTML/datadownload.html",
                 keywords: ["data", "download", "datasets", "satellite data", "free data", "open data", "resources"],
                 description: "Download satellite data and remote sensing datasets"
             },
             {
                 title: "Open Source Software",
-                url: "/infi_website/HTML/opensource.html",
+                url: "../../infi_website/HTML/opensource.html",
                 keywords: ["software", "open source", "tools", "applications", "processing", "analysis", "GIS", "ENVI", "SNAP"],
                 description: "Open source and proprietary software for remote sensing analysis"
             },
             {
                 title: "Education",
-                url: "/infi_website/HTML/education.html",
+                url: "../../infi_website/HTML/education.html",
                 keywords: ["education", "universities", "colleges", "courses", "programs", "degrees", "institutions"],
                 description: "Educational institutions offering remote sensing programs"
             },
             {
                 title: "Career",
-                url: "/infi_website/HTML/career.html",
+                url: "../../infi_website/HTML/career.html",
                 keywords: ["career", "jobs", "opportunities", "employment", "professions", "career paths"],
                 description: "Career opportunities and job prospects in remote sensing"
             },
             {
                 title: "Events",
-                url: "/infi_website/HTML/event.html",
+                url: "../../infi_website/HTML/event.html",
                 keywords: ["events", "conferences", "workshops", "seminars", "meetings", "symposiums"],
                 description: "Upcoming events and conferences in remote sensing"
             },
             {
                 title: "Contact Us",
-                url: "/infi_website/HTML/contact.html",
+                url: "../../infi_website/HTML/contact.html",
                 keywords: ["contact", "support", "help", "inquiry", "feedback", "communication"],
                 description: "Get in touch with us for support and inquiries"
             }

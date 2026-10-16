@@ -8,7 +8,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
-    <link rel="stylesheet" href="/infi_website/CSS/style.css" />
+    <link rel="stylesheet" href="../../infi_website/CSS/style.css" />
     <style>
       /* .navbar a.active {
         color: red;
@@ -1865,7 +1865,7 @@
       } else { bindPaperSearch(); }
 
       // Use same-origin relative URL to avoid HTTPS/port and mixed-content issues
-      fetch(`/infi_website/data/technical.json`)
+      fetch(`../../infi_website/data/technical.json`)
         .then((res) => res.json())
         .then((data) => {
           Object.keys(data).forEach((k, index) => {
@@ -2072,9 +2072,9 @@
         for (let i = 0; i < concurrency; i++) worker();
       })();
     </script>
-    <script type="module" src="/infi_website/Javascript/navBar.js"></script>
+    <script type="module" src="../../infi_website/Javascript/navBar.js"></script>
       <script src="../js/script.js"></script>
-  <script src="/infi_website/js/chatbot-widget.js" defer></script>
+  <script src="../../infi_website/js/chatbot-widget.js" defer></script>
 </body>
 </html>
 ```
